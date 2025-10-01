@@ -2,7 +2,7 @@ name: build and transfer docker image
 on: [push,workflow_dispatch]
 
 jobs:
-  build and tranfer:
+  build:
     runs-on: ubuntu-latest 
     steps:
        - name: "checkout the code"
